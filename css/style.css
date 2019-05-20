@@ -1,0 +1,71 @@
+.wrapper-contact {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.wrapper-contact .nicdark_focus {
+    display: inline-block;
+    float: none;
+}
+
+.wrapper-contact .nicdark_width_percentage60 {
+    width: 60%;
+}
+
+.wrapper-contact .nicdark_width_percentage60 input {
+    text-align: center;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.nicdark_bg_grey .tinynav {
+    border: none;
+}
+
+#tinynav1 {
+    opacity: 0;
+    display: none;
+}
+
+nicdark_divider.small > span {
+    height: 1px;
+}
+
+.nicdark_section {
+    text-align: justify;
+}
+
+/* ========== Phone Call ==========*/
+.link-phone-call {
+    display: none
+}
+
+@media (max-width: 767px) {
+    .link-phone-call {
+        display: block;
+    }
+}
+/* ========== End Phone Call ==========*/
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .nicdark_menu {
+        display: inline-block;
+        position: relative;
+        top: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
